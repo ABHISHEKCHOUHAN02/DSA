@@ -15,19 +15,11 @@ bool issort(int arr[],int n){
     }
    
 }
-
-void inputarray(int &arr[],int n){
-
-    for(int i =0;i<n;i++){
-        cin>>arr[i];
-    }
-}
 int main(){
-    int arr[10];
-
+    int arr[10]={2,56,89,95,98};
 
     int n=5;
-    inputarray(arr, n);
+
     int ans=issort(arr,n);
 
     if(ans){

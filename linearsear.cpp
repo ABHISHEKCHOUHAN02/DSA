@@ -18,7 +18,7 @@ bool linear(int arr[],int n,int key){
     return ans;
 }
 int main(){
-    int arr[10]={2,56,89,95,98};
+    int arr[10]={2,56,9,0,98};
 
     int n=5;
     int ans=linear(arr,5,90);

@@ -24,4 +24,5 @@ int power(int a,int b){
 int main(){
     
     cout<<"\n powe of 2 and 3 is :"<<power(2,3);
+    cout<<"changes occur";
 }

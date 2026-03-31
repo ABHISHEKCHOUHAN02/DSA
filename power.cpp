@@ -23,5 +23,5 @@ int power(int a,int b){
 }
 int main(){
     
-    cout<<"\n answere="<<power(2,3);
+    cout<<"\n powe of 2 and 3 is :"<<power(2,3);
 }
